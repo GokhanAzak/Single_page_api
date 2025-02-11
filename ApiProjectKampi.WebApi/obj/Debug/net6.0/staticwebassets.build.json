@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FgwcSa6xZh8j+TbZ+KOW4AElVyzvwQJs7uWFCFj19sw=",
+  "Source": "ApiProjectKampi.WebApi",
+  "BasePath": "_content/ApiProjectKampi.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
