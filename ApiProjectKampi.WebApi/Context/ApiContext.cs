@@ -3,14 +3,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ApiProjectKampi.WebApi.Context
 {
-    public class ApiContext:DbContext
+    public class ApiContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=;initial catalog =ApiYummyDb; integrated  security= true;");
-
-
+            optionsBuilder.UseSqlServer("Server=.; Initial Catalog=ApiYummyDb; Integrated Security=True;");
         }
+
+
 
 
         public DbSet<Category> Categories { get; set; }
