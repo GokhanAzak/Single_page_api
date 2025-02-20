@@ -146,5 +146,79 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectKampi.WebApi.Controllers.ContactsController",
+    "Method": "ContatcList",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectKampi.WebApi.Controllers.ContactsController",
+    "Method": "CreateContact",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createContatcDto",
+        "Type": "ApiProjectKampi.WebApi.Dtos.CreateContatcDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectKampi.WebApi.Controllers.ContactsController",
+    "Method": "DeleteContact",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectKampi.WebApi.Controllers.ContactsController",
+    "Method": "UpdateContact",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateContactDto",
+        "Type": "ApiProjectKampi.WebApi.Dtos.UpdateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProjectKampi.WebApi.Controllers.ContactsController",
+    "Method": "GetContact",
+    "RelativePath": "api/Contacts/GetContact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
