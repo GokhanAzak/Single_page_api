@@ -10,25 +10,16 @@ namespace ApiProjectKampi.WebApi.Context
             optionsBuilder.UseSqlServer("Server=.; Initial Catalog=ApiYummyDb; Integrated Security=True;");
         }
 
-
-
-
+        // DbSet tanımlamaları
         public DbSet<Category> Categories { get; set; }
         public DbSet<Chef> Chefs { get; set; }
-        public DbSet<Contact> Contact { get; set; }
+        public DbSet<Contact> Contacts { get; set; } // Burayı düzelt
         public DbSet<Feature> Features { get; set; }
-        public DbSet<Image> Image { get; set; }
-        public DbSet<Message> Message { get; set; }
-        public DbSet<Product> Product { get; set; }
-        public DbSet<Reservation> Reservation { get; set; }
-        public DbSet<Service> Service { get; set; } 
-        public DbSet<Testimonail> Testimonails { get; set; } 
-
-
-
-
-
-         
-
+        public DbSet<Image> Images { get; set; } // Burada da pluralize ettim
+        public DbSet<Message> Messages { get; set; } // Aynı şekilde Messages
+        public DbSet<Product> Products { get; set; } // Aynı şekilde Products
+        public DbSet<Reservation> Reservations { get; set; } // Aynı şekilde Reservations
+        public DbSet<Service> Services { get; set; }
+        public DbSet<Testimonail> Testimonails { get; set; }
     }
 }
