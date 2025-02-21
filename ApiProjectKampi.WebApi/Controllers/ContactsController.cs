@@ -1,6 +1,6 @@
 ﻿using ApiProjectKampi.WebApi.Context;
 using ApiProjectKampi.WebApi.Controllers.Entities;
-using ApiProjectKampi.WebApi.Dtos;
+using ApiProjectKampi.WebApi.Dtos.ContactDtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
