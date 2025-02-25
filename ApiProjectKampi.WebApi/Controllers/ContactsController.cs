@@ -24,6 +24,7 @@ namespace ApiProjectKampi.WebApi.Controllers
         public IActionResult ContatcList()
         {
             var values = _context.Contacts.ToList();
+
             return Ok(values);
         }
 
