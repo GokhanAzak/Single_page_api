@@ -7,5 +7,8 @@
         public string ProductDescription { get; set; }
         public decimal Price { get; set; } // C# isimlendirme kurallarına uygun hale getirildi
         public string ImageUrl { get; set; }
+
+        public int? CategoryId { get; set; }
+        public Category Categories { get; set; }
     }
 }
